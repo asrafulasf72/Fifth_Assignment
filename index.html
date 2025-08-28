@@ -25,7 +25,7 @@
                   <div class="max-sm:mt-5">
                     <button class="w-[5rem] max-sm:w-[3.8rem] rounded-2xl p-1.5 bg-[#41ff6b1a] mx-1.5 max-sm:mx-0.5 text-[16px] font-bold max-sm:text-[10px]"><span id="heart-count">0</span> <img src="./assets/heart.png" alt="" class="w-6 max-sm:w-3.5 inline"></button>
                     <button class="w-[5rem] max-sm:w-[3.8rem] rounded-2xl p-1.5 bg-[#41ff6b1a] mx-1.5 max-sm:mx-0.5 text-[16px] font-bold max-sm:text-[10px]"><span id="Coin">100 </span><img src="./assets/coin.png" alt="" class="w-6  max-sm:w-3.5 inline"></button>
-                    <button class="bg-[#00a63e] text-[#ffffff] text-[16px] max-sm:text-[10px] font-semibold rounded-[50px] w-[5rem] max-sm:w-[3.8rem] p-1.5 mx-1.5 max-sm:mx-0.5"><span>0</span> Copy</button>
+                    <button class="bg-[#00a63e] text-[#ffffff] text-[16px] max-sm:text-[10px] font-semibold rounded-[50px] w-[5rem] max-sm:w-[3.8rem] p-1.5 mx-1.5 max-sm:mx-0.5"><span id="copyCounter">0</span> Copy</button>
                   </div>
               </div>
       </header>
@@ -53,7 +53,7 @@
                                 <p class=" text-[1rem] text-[#5c5c5c] p-2 my-1.5 mb-2 w-[26%] bg-[#f2f2f2] rounded-2xl text-center">All</p>
                         </div>
                         <div class="flex gap-3">
-                            <button class="border-1 border-gray-300 rounded-[8px] w-full p-2 cursor-pointer"><i class="fa-regular fa-copy font-medium text-[1rem] text-[#5c5c5c]"></i> Copy</button>
+                            <button class="border-1 border-gray-300 rounded-[8px] w-full p-2 cursor-pointer copyBtn"><i class="fa-regular fa-copy font-medium text-[1rem] text-[#5c5c5c]"></i> Copy</button>
                             <button class="w-full text-white bg-[#00a63e] rounded-[8px] p-2 font-medium text-[1rem] cursor-pointer Call-btn" id="btn-call-event"><i class="fa-solid fa-phone text-white"></i> Call</button>
                         </div>
                      </div>
@@ -69,7 +69,7 @@
                                 <p class=" text-[1rem] text-[#5c5c5c] p-2 my-1.5 mb-2 w-[26%] bg-[#f2f2f2] rounded-2xl text-center">Police</p>
                         </div>
                         <div class="flex gap-3">
-                            <button class="border-1 border-gray-300 rounded-[8px] w-full p-2"><i class="fa-regular fa-copy font-medium text-[1rem] text-[#5c5c5c]"></i> Copy</button>
+                            <button class="border-1 border-gray-300 rounded-[8px] w-full p-2 cursor-pointer copyBtn"><i class="fa-regular fa-copy font-medium text-[1rem] text-[#5c5c5c]"></i> Copy</button>
                             <button class="w-full text-white bg-[#00a63e] rounded-[8px] p-2 font-medium text-[1rem] cursor-pointer Call-btn"><i class="fa-solid fa-phone text-white"></i> Call</button>
                         </div>
                      </div>
@@ -85,7 +85,7 @@
                                 <p class=" text-[1rem] text-[#5c5c5c] p-2 my-1.5 mb-2 w-[26%] bg-[#f2f2f2] rounded-2xl text-center">Fire</p>
                         </div>
                         <div class="flex gap-3">
-                            <button class="border-1 border-gray-300 rounded-[8px] w-full p-2"><i class="fa-regular fa-copy font-medium text-[1rem] text-[#5c5c5c]"></i> Copy</button>
+                            <button class="border-1 border-gray-300 rounded-[8px] w-full p-2 cursor-pointer copyBtn"><i class="fa-regular fa-copy font-medium text-[1rem] text-[#5c5c5c]"></i> Copy</button>
                             <button class="w-full text-white bg-[#00a63e] rounded-[8px] p-2 font-medium text-[1rem] cursor-pointer Call-btn"><i class="fa-solid fa-phone text-white"></i> Call</button>
                         </div>
                      </div>
@@ -101,7 +101,7 @@
                                 <p class=" text-[1rem] text-[#5c5c5c] p-2 my-1.5 mb-2 w-[26%] bg-[#f2f2f2] rounded-2xl text-center">Health</p>
                         </div>
                         <div class="flex gap-3">
-                            <button class="border-1 border-gray-300 rounded-[8px] w-full p-2"><i class="fa-regular fa-copy font-medium text-[1rem] text-[#5c5c5c]"></i> Copy</button>
+                            <button class="border-1 border-gray-300 rounded-[8px] w-full p-2 cursor-pointer copyBtn"><i class="fa-regular fa-copy font-medium text-[1rem] text-[#5c5c5c]"></i> Copy</button>
                             <button class="w-full text-white bg-[#00a63e] rounded-[8px] p-2 font-medium text-[1rem] cursor-pointer Call-btn"><i class="fa-solid fa-phone text-white"></i> Call</button>
                         </div>
                      </div>
@@ -117,7 +117,7 @@
                                 <p class=" text-[1rem] text-[#5c5c5c] p-2 my-1.5 mb-2 w-[25%] bg-[#f2f2f2] rounded-2xl text-center">Help</p>
                         </div>
                         <div class="flex gap-3">
-                            <button class="border-1 border-gray-300 rounded-[8px] w-full p-2"><i class="fa-regular fa-copy font-medium text-[1rem] text-[#5c5c5c]"></i> Copy</button>
+                            <button class="border-1 border-gray-300 rounded-[8px] w-full p-2 cursor-pointer copyBtn"><i class="fa-regular fa-copy font-medium text-[1rem] text-[#5c5c5c]"></i> Copy</button>
                             <button class="w-full text-white bg-[#00a63e] rounded-[8px] p-2 font-medium text-[1rem] cursor-pointer Call-btn"><i class="fa-solid fa-phone text-white"></i> Call</button>
                         </div>
                      </div>
@@ -133,7 +133,7 @@
                                 <p class=" text-[1rem] text-[#5c5c5c] p-2 my-1.5 mb-2 w-[26%] bg-[#f2f2f2] rounded-2xl text-center">Govt.</p>
                         </div>
                         <div class="flex gap-3">
-                            <button class="border-1 border-gray-300 rounded-[8px] w-full p-2"><i class="fa-regular fa-copy font-medium text-[1rem] text-[#5c5c5c]"></i> Copy</button>
+                            <button class="border-1 border-gray-300 rounded-[8px] w-full p-2 cursor-pointer copyBtn"><i class="fa-regular fa-copy font-medium text-[1rem] text-[#5c5c5c]"></i> Copy</button>
                             <button class="w-full text-white bg-[#00a63e] rounded-[8px] p-2 font-medium text-[1rem] cursor-pointer Call-btn"><i class="fa-solid fa-phone text-white"></i> Call</button>
                         </div>
                      </div>
@@ -150,7 +150,7 @@
                                 <p class=" text-[1rem] text-[#5c5c5c] p-2 my-1.5 mb-2 w-[36%] bg-[#f2f2f2] rounded-2xl text-center">Electricity</p>
                         </div>
                         <div class="flex gap-3">
-                            <button class="border-1 border-gray-300 rounded-[8px] w-full p-2"><i class="fa-regular fa-copy font-medium text-[1rem] text-[#5c5c5c]"></i> Copy</button>
+                            <button class="border-1 border-gray-300 rounded-[8px] w-full p-2 cursor-pointer copyBtn"><i class="fa-regular fa-copy font-medium text-[1rem] text-[#5c5c5c]"></i> Copy</button>
                             <button class="w-full text-white bg-[#00a63e] rounded-[8px] p-2 font-medium text-[1rem] cursor-pointer Call-btn"><i class="fa-solid fa-phone text-white"></i> Call</button>
                         </div>
                      </div>
@@ -167,7 +167,7 @@
                                 <p class=" text-[1rem] text-[#5c5c5c] p-2 my-1.5 mb-2 w-[26%] bg-[#f2f2f2] rounded-2xl text-center">NGO</p>
                         </div>
                         <div class="flex gap-3">
-                            <button class="border-1 border-gray-300 rounded-[8px] w-full p-2"><i class="fa-regular fa-copy font-medium text-[1rem] text-[#5c5c5c]"></i> Copy</button>
+                            <button class="border-1 border-gray-300 rounded-[8px] w-full p-2 cursor-pointer copyBtn"><i class="fa-regular fa-copy font-medium text-[1rem] text-[#5c5c5c]"></i> Copy</button>
                             <button class="w-full text-white bg-[#00a63e] rounded-[8px] p-2 font-medium text-[1rem] cursor-pointer Call-btn"><i class="fa-solid fa-phone text-white"></i> Call</button>
                         </div>
                      </div>
@@ -184,13 +184,10 @@
                                 <p class=" text-[1rem] text-[#5c5c5c] p-2 my-1.5 mb-2 w-[26%] bg-[#f2f2f2] rounded-2xl text-center">Travel</p>
                         </div>
                         <div class="flex gap-3">
-                            <button class="border-1 border-gray-300 rounded-[8px] w-full p-2"><i class="fa-regular fa-copy font-medium text-[1rem] text-[#5c5c5c]"></i> Copy</button>
+                            <button class="border-1 border-gray-300 rounded-[8px] w-full p-2 cursor-pointer copyBtn"><i class="fa-regular fa-copy font-medium text-[1rem] text-[#5c5c5c]"></i> Copy</button>
                             <button class="w-full text-white bg-[#00a63e] rounded-[8px] p-2 font-medium text-[1rem] cursor-pointer Call-btn"><i class="fa-solid fa-phone text-white"></i> Call</button>
                         </div>
-                     </div>
-            
-                     
-                        
+                     </div>  
                   </section>
                   
 
@@ -208,5 +205,6 @@
 
       <script src="./JScript/script.js"></script>
       <script src="./JScript/call.js"></script>
+      <script src="./JScript/copy.js"></script>
 </body>
 </html>

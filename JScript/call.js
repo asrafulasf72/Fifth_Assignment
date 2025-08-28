@@ -54,7 +54,7 @@ for (let btn of callButtons) {
       historyList.appendChild(div);
 
     } else {
-      alert("You don't have enough coin for call.");
+      alert(" Don't have enough coins. It takes 20 coins to make a call.");
     }
   });
 }
