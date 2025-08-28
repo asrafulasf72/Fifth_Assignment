@@ -7,3 +7,4 @@ for(let icons of heartIcon){
         heartCounter.innerText=count;
     })
 }
+
